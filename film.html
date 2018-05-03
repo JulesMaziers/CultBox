@@ -38,27 +38,57 @@
 									<header class="major">
 										<h1>Films</h1>
 									</header>
-
-									<!-- button -->
-									<audio id="sound1" src="sound1.mp3"></audio>
-									<button onclick="cultbox.exemplesounds('sound1').play()"></button>	
-									
+									<audio id="bloc_son" controls="controls" preload="none">
+    <source src="film1.mp3" type="audio/mp3" />
+    </audio>
+	Alors? On attend pas Patrick?
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film2.mp3" type="audio/mp3" />
+    </audio>
+	J'aime me beurrer la biscotte
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film3.mp3" type="audio/mp3" />
+    </audio>
+	T'es le roi des cons au pays des emmerdeurs!
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film4.mp3" type="audio/mp3" />
+    </audio>
+	Maman de Stiffler!
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film5.mp3" type="audio/mp3" />
+    </audio>
+	J'ai glissé chef!
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film6.mp3" type="audio/mp3" />
+    </audio>
+	Tape dans le fond j'suis pas ta mère!
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film7.mp3" type="audio/mp3" />
+    </audio>
+	C'est de toute beautée
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film8.mp3" type="audio/mp3" />
+    </audio>
+	C'est trop calme
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="film9.mp3" type="audio/mp3" />
+    </audio>
+	Sparta!
 	
+	
+	
+  
+									
 	    
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-							
-							</ul>
-						</div>
-					</footer>
 
-			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -68,6 +98,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>function lancer_son() {
+    var audio = document.getElementById('bloc_son');
+    audio.volume = 1; // on met le son au maximum
+    audio.play(); // on lance le son</script>
+
 			
 
 	</body>

@@ -44,36 +44,41 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Generic</h1>
-									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-								</div>
-							</section>
+										<h1>Séries</h1>
+								
 
-					</div>
-
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="série1.mp3" type="audio/mp3" />
+    </audio>
+	   Respecte mon autorité!
+	   <br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="série2.mp3" type="audio/mp3" />
+    </audio>
+	Je suis le danger
+	 <br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="série3.mp3" type="audio/mp3" />
+    </audio>
+	Plata o plomo
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="série4.mp3" type="audio/mp3" />
+    </audio>
+	Ouais cest pas faux !!
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="série5.mp3" type="audio/mp3" />
+    </audio>
+    Putain d'enfoiré de fils de ***!
+	<br>
+									<audio id="bloc_son" controls="controls" preload="none">
+	  <source src="série6.mp3" type="audio/mp3" />
+    </audio>
+    Yeah bitch!
 				
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
+				
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -83,6 +88,10 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>function lancer_son() {
+    var audio = document.getElementById('bloc_son');
+    audio.volume = 1; // on met le son au maximum
+    audio.play(); // on lance le son</script>
 
 	</body>
 </html>
